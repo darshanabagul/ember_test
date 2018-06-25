@@ -1,0 +1,60 @@
+/**--- COMMON Modal Classes -----**/
+
+.modal-dialog-panel {
+	.modal-dialog-close {
+		button {
+			&.close {
+				color: black;
+				float: right;
+				font-size: 40px;
+				font-weight: bold;
+				padding-right: 28px;
+
+				&:focus {
+					outline: 0;
+				}
+			}
+		}
+	}
+	.modal-dialog-body {
+		.modal-dialog-header {
+			border-bottom: none;
+			.modal-dialog-title {
+				color: #800080;
+				border-bottom: 2px solid black;
+				padding-bottom: 20px;
+				margin-top:10px;
+				font-size: 30px;
+				font-family: "Times New Roman", Times, serif;
+			}
+		}
+		.modal-dialog-description {
+			font-size: 15px;
+			padding: 10px 20px 30px;
+		}
+	}
+	@media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
+		width: 350px;
+		min-height: 300px;
+		max-height: 500px;
+		overflow-y: auto;
+		overflow-x: auto;
+	}
+}
+
+#pricing-modal {
+	.price
+	{
+	    h1
+		{
+		    line-height: 1em;
+		    padding: 0;
+		    margin: 0;
+		}
+	}
+	.subscript
+	{
+	    font-size: 20px;
+	}	
+}
+

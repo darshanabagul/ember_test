@@ -1,0 +1,7 @@
+{
+  "name": "bower.json",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery-validation": "1.17.0"
+  }
+}
